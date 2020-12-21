@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+
+  // @media only screen and (min-width: $tablet) {
+  //   font-size: 112.5%; // 18px / 16px = 1.125
+  // }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
