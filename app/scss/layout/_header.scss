@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 1rem;
+}
+
+.header__logo h2 span {
+  color: $red;
+}
+
+.hero {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.hero__title {
+  margin: 4rem 1rem 0;
+}
+
+.hero__text {
+  margin: 1rem;
+  width: 70%;
+  max-width: 13.75em; // 220px / 16px = 13.75
+}
+
+.arrow {
+  width: 20px;
+  height: 67px;
+  margin-top: 80px;
+  align-self: center;
+  fill: $green;
+}
+
+.yellow-container {
+  position: absolute;
+  top: 2.5rem;
+  left: -1.7rem;
+
+  width: 32vw;
+  height: 23vw;
+
+  background-color: $yellow;
+  border: 10px solid #fff;
+  z-index: -10;
+}
+
+.red-container {
+  position: absolute;
+  top: 3rem;
+  right: -2rem;
+
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+
+  background-color: $red;
+  border: 10px solid #fff;
+  z-index: -10;
+}
