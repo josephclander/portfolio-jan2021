@@ -1,0 +1,22 @@
+// place this inside a button tag
+.burger-menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+
+  &__bar {
+    width: 40px;
+    height: 3px;
+
+    background-color: $black;
+
+    &:nth-child(2) {
+      background-color: $red;
+    }
+
+    &:not(:last-of-type) {
+      margin-bottom: 6px;
+    }
+  }
+}
