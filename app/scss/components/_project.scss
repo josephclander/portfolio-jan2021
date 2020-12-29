@@ -34,16 +34,37 @@
     color: #fff;
     padding: 5px;
     border-radius: 8px;
-    margin-right: 5px;
+    margin-left: 5px;
   }
 }
 
 .miniMaths {
-  background-image: linear-gradient(
-      to right,
-      rgba($white, 0.6),
-      rgba($white, 0.6)
-    ),
-    url(img/miniMaths-5x4-500w.jpg);
-  background-size: cover;
+  @include bg-image('img/miniMaths-5x4-500w.jpg');
+}
+.wcicwt {
+  @include bg-image('img/wcicwt-5x4-500w.jpg');
+}
+.directory {
+  @include bg-image('img/thEmployeeDirectory-5x4-500w.jpg');
+}
+.covid {
+  @include bg-image('img/ukCorona-5x4-500w.jpg');
+}
+.animal {
+  @include bg-image('img/svgSite-5x4-500w.jpg');
+}
+.web-app {
+  @include bg-image('img/webApp-5x4-500w.jpg');
+}
+.tictactoe {
+  @include bg-image('img/noughtsandCrosses-5x4-500w.jpg');
+}
+.js-challenges {
+  @include bg-image('img/codepenChallenges-5x4-500w.jpg');
+}
+.react {
+  @include bg-image('img/cvReact-5x4-500w.jpg');
+}
+.api-gallery {
+  @include bg-image('img/reactGallery-5x4-500w.jpg');
 }
