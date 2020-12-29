@@ -1,10 +1,49 @@
 .project {
+  margin: 0 auto;
   min-width: 280px;
   min-height: 224px;
   background-color: grey;
 
   border-radius: 8px;
+  // to achieve curved outline on shape and border
+  box-shadow: 0 0 0 12px #fff;
 
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__header {
+    margin-top: 12px;
+    margin-left: -12px;
+    background-color: $red;
+    color: #fff;
+    padding: 5px;
+    padding-left: 17px; // 12 border + 5 for tag
+    width: 80%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  &__tag-container {
+    display: flex;
+    margin-bottom: 12px;
+  }
+
+  &__tag {
+    background-color: $black;
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    margin-right: 5px;
+  }
+}
+
+.miniMaths {
+  background-image: linear-gradient(
+      to right,
+      rgba($white, 0.6),
+      rgba($white, 0.6)
+    ),
+    url(img/miniMaths-5x4-500w.jpg);
+  background-size: cover;
 }
