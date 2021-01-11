@@ -1,0 +1,38 @@
+.nav-modal {
+  width: 100vw;
+  height: 100vw;
+  border-radius: 50%;
+
+  position: fixed;
+  top: -50vw;
+  right: -50vw;
+  z-index: 10;
+  background-color: $red;
+
+  transform: scale(0);
+  transition: 0.6s;
+}
+
+.menu {
+  list-style: none;
+  display: block;
+
+  position: fixed;
+  z-index: 20;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(50%, -50%);
+  opacity: 0;
+  transition: 0.8s;
+
+  &__item {
+    padding: 1rem 0;
+
+    & a {
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}
