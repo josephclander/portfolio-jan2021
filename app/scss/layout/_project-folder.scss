@@ -26,9 +26,13 @@
     line-height: 1.4;
     margin-bottom: 1rem;
     max-width: 400px;
+
+    & p {
+      margin-bottom: 1rem;
+    }
   }
 
   &__project {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 }
