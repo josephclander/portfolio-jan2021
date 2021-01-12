@@ -42,28 +42,27 @@
       </nav>
     </header>
     <main class="main__project">
-        <div class="project-page__project project miniMaths">
-            <h2 class="project__header">miniMaths</h2>
+        <div class="project-page__project project tictactoe">
+            <h2 class="project__header">Tic Tac Toe</h2>
         </div>
         <div class="project__tag-container--out">
-            <div class="project__tag">HTML</div>
-            <div class="project__tag">CSS</div>
-            <div class="project__tag">JQuery</div>
+            <div class="project__tag">JS</div>
+            <div class="project__tag">npm</div>
         </div>
         <section class="brief">
             <div class="red-circle"></div>
             <h2 class="brief__title">The Brief</h2>
-            <p>I needed a site that would host the videos I filmed to support my A-Level students. The website builder sites wanted to charge for adding a link to a video. I knew at this stage it was worth learning to create your own sites. All that was needed was a short title and a link to YouTube.</p>
+            <p>Without researching other implementations of the game, I wanted to see how far my js skills had come to recreate the game from scratch. Minimal styling and a focus on creating a efficient functioning game.</p>
         </section>
         <section class="build">
             <div class="yellow-square"></div>
             <h2 class="build__title">The Build</h2>
-            <p>OK, so a simple structure with a simple color scheme that looked the same on mobile as it did on desktop. I learned enough through Free Code Camp to set this up. Styling links and creating hover states was the first challenge. As I split the colours in the headline it took some time to learn how to get the hoverstate to work for both parts.</p>
-            <p>At this stage, although it wasn't necessary, I became interested in using javascript to add interactivity. jQuery was my first forary and you can see this in the modules menu.</p>
-            <p>Lastly, the use of iframes to link to YouTube created an issue as I began to learn about responsive design. After researching via Google I found how to use padding to keep the 16:9 ratio intact. This is seen in the intro video on the main page.</p>
+            <p>Before starting this project I ran through a few ways to structure the game and considered their implications later on in the build. I wanted as few calculations as possible in determining a winner so initially added checks in the code to only count if a win was possible and to stop if one had already been found. I decided to run two sections: the physical board seen by the user and an array used by the browser.</p>
+            <p>By tabulating all the possible winning moves it meant that the code would only check those possibilities.</p>
+            <p>After getting a running project, I came back to add more features on an iterative basis. These included messages, implementation for a draw and a running scoreboard.</p>
         </section>
-        <a href="https://github.com/josephclander/miniMaths" class="btn btn--code">Inspect the Code</a>
-        <a href="https://josephclander.github.io/miniMaths/" class="btn btn--site">Visit the Site</a>
+        <a href="https://github.com/josephclander/Noughts_and_Crosses" class="btn btn--code">Inspect the Code</a>
+        <a href="https://josephclander.github.io/Noughts_and_Crosses/" class="btn btn--site">Visit the Site</a>
     </main>
     <footer class="footer">
         <div class="contact">
