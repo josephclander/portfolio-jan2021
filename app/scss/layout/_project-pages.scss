@@ -1,0 +1,110 @@
+.main__project {
+  display: grid;
+}
+
+.project-page__project {
+  margin: 2rem auto;
+}
+
+// adjusting from index page
+// tag container
+.project__tag-container--out {
+  display: flex;
+  margin-left: 11px;
+}
+
+.brief {
+  position: relative;
+  background-color: $yellow;
+
+  margin: 60px 0;
+
+  width: 100%;
+  padding: 95px 1rem 60px;
+
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+
+  &__title {
+    position: absolute;
+    top: 18px;
+    z-index: 10;
+  }
+
+  & p {
+    margin-bottom: 1rem;
+  }
+}
+
+.build {
+  position: relative;
+  background-color: $red;
+
+  margin: 60px 0;
+
+  width: 100%;
+  padding: 95px 1rem 60px;
+
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+
+  &__title {
+    position: absolute;
+    top: 18px;
+    z-index: 10;
+  }
+
+  & p {
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+}
+
+.red-circle {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+
+  background-color: $red;
+  border: 5px solid #fff;
+  z-index: 5;
+}
+
+.yellow-square {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+
+  width: 90px;
+  height: 90px;
+
+  background-color: $yellow;
+  border: 5px solid #fff;
+  z-index: 5;
+}
+
+// buttons
+
+.btn--code {
+  background-color: $yellow;
+  margin: 0 1rem 60px;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: darken($yellow, 10%);
+  }
+}
+
+.btn--site {
+  background-color: $green;
+  margin: 0 1rem 60px;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: darken($green, 10%);
+  }
+}
