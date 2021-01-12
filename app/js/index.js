@@ -10,7 +10,7 @@ const showNavigation = () => {
 
 const hideNavigation = () => {
   menu.style.opacity = '0';
-  menu.style.transform = 'translate(50%, -50%)';
+  menu.style.transform = 'translate(100vw, -50%)';
   navModal.style.transform = 'scale(0)';
 };
 

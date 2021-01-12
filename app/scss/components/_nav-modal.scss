@@ -6,7 +6,7 @@
   position: fixed;
   top: -50vw;
   right: -50vw;
-  z-index: 10;
+  z-index: 100;
   background-color: $red;
 
   transform: scale(0);
@@ -18,11 +18,11 @@
   display: block;
 
   position: fixed;
-  z-index: 20;
+  z-index: 120;
   top: 50%;
   left: 50%;
 
-  transform: translate(50%, -50%);
+  transform: translate(100vw, -50%);
   opacity: 0;
   transition: 0.8s;
 
