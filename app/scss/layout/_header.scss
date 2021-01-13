@@ -24,16 +24,16 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-}
 
-.hero__title {
-  margin: 4rem 1rem 0;
-}
+  &__title {
+    margin: 4rem 1rem 0;
+  }
 
-.hero__text {
-  margin: 1rem;
-  width: 70%;
-  max-width: 13.75em; // 220px / 16px = 13.75
+  &__text {
+    margin: 1rem;
+    width: 70%;
+    max-width: 13.75em; // 220px / 16px = 13.75
+  }
 }
 
 .arrow {
