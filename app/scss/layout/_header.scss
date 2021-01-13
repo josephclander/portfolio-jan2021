@@ -29,10 +29,15 @@
     margin: 4rem 1rem 0;
   }
 
-  &__text {
+  &__blurb {
     margin: 1rem;
     width: 70%;
     max-width: 13.75em; // 220px / 16px = 13.75
+  }
+
+  @media screen and (min-width: $mobile) {
+    justify-content: center;
+    align-items: center;
   }
 }
 
