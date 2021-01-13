@@ -10,9 +10,17 @@
   @media screen and (min-width: $mobile) {
     justify-content: center;
   }
+
+  @media screen and (min-width: $tablet) {
+    grid-template-columns: repeat(2, 320px);
+  }
 }
 
 .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   &__title {
     margin-bottom: 0.5rem;
   }

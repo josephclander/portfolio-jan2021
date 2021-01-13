@@ -2,11 +2,19 @@
   display: grid;
   grid-row-gap: 100px;
 
+  max-width: 1320px;
+
   @media screen and (min-width: $mobile) {
-    justify-content: center;
+    justify-content: space-around;
   }
 
   @media screen and (min-width: $tablet) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, 320px);
+    grid-column-gap: 20px;
+    margin: 0 10px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin: 0 auto;
   }
 }

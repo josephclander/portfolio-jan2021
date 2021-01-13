@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.4rem 1rem;
+  max-width: 1024px;
+  margin: 0 auto;
 
   &__logo {
     & a:link,
@@ -24,6 +26,8 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  max-width: 1024px;
+  margin: 0 auto;
 
   &__title {
     margin: 4rem 1rem 0;
@@ -60,6 +64,13 @@
   background-color: $yellow;
   border: 10px solid #fff;
   z-index: -10;
+
+  @media screen and (min-width: $desktop) {
+    width: 328px;
+    height: 236px;
+
+    transform: translateX(1.7rem);
+  }
 }
 
 .red-container {
@@ -74,4 +85,11 @@
   background-color: $red;
   border: 10px solid #fff;
   z-index: -10;
+
+  @media screen and (min-width: $desktop) {
+    width: 410px;
+    height: 410px;
+
+    transform: translateX(-2rem);
+  }
 }
