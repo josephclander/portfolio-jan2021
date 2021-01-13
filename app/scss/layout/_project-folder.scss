@@ -35,4 +35,8 @@
   &__project {
     margin: 0 auto 2rem;
   }
+
+  @media screen and (min-width: $mobile) {
+    width: 425px;
+  }
 }

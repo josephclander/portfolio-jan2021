@@ -2,9 +2,14 @@
   display: grid;
   grid-row-gap: 30px;
   background-color: $black;
+  margin-top: 60px;
   padding: 60px 1rem;
   color: $white;
   border-top-left-radius: 45px;
+
+  @media screen and (min-width: $mobile) {
+    justify-content: center;
+  }
 }
 
 .contact {
@@ -37,6 +42,11 @@
     justify-content: space-around;
     width: 80%;
     margin: 0 auto;
+
+    @media screen and (min-width: $mobile) {
+      width: 314px;
+      margin: 0 39.5px;
+    }
   }
 
   &__icon {

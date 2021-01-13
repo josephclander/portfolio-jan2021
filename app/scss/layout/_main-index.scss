@@ -1,4 +1,8 @@
 .main__index {
   display: grid;
   grid-row-gap: 100px;
+
+  @media screen and (min-width: $mobile) {
+    justify-content: center;
+  }
 }
