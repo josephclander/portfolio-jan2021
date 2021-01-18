@@ -17,7 +17,7 @@ const server = browserSync.create();
 // File paths
 const files = {
   indexPath: 'app/*.html',
-  imgPath: 'app/img/*.jpg',
+  imgPath: 'app/img/**/*',
   scssPath: 'app/scss/**/*.scss',
   jsPath: 'app/js/**/*.js',
 };
