@@ -34,6 +34,14 @@
 
   &__project {
     margin: 0 auto 2rem;
+    transition: box-shadow 0.3s;
+
+    &:hover,
+    &:focus,
+    &:active {
+      box-shadow: 0 0 0 12px $black;
+      outline: none;
+    }
   }
 
   @media screen and (min-width: $mobile) {
