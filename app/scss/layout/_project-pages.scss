@@ -23,6 +23,7 @@
 // tag container
 .project__tag-container--out {
   display: flex;
+  flex-wrap: wrap;
   margin-left: 11px;
 
   @media screen and (min-width: $tablet) {
