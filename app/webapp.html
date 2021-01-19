@@ -18,37 +18,43 @@
     <link rel="stylesheet" href="style.css?cb=1" />
   </head>
   <body>
-    <div class="nav-modal"></div>
-    <ul class="menu">
-      <li class="menu__item"><a href="/index.html#firstProjects">First Projects</a></li>
-      <li class="menu__item"><a href="/index.html#useOfAPI">Use of API</a></li>
-      <li class="menu__item">
-        <a href="/index.html#advancedStyling">Advanced Styling</a>
-      </li>
-      <li class="menu__item">
-        <a href="/index.html#useOfJavascript">Use of Javascript</a>
-      </li>
-      <li class="menu__item"><a href="/index.html#react">React</a></li>
-    </ul>
-    <header class="header">
-      <div class="header__logo">
-        <h2>
-          <a href="index.html"><span>J</span>oseph</a>
-        </h2>
-      </div>
-      <nav class="nav">
-        <button class="burger-menu">
-          <div class="burger-menu__bar"></div>
-          <div class="burger-menu__bar"></div>
-          <div class="burger-menu__bar"></div>
-        </button>
-      </nav>
-    </header>
-    <main class="main__project">
-        <div class="project-page__project project web-app">
+    <div class="content-container">
+      <div class="content">
+        <div class="nav-modal"></div>
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="/index.html#firstProjects">First Projects</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#useOfAPI">Use of API</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#advancedStyling">Advanced Styling</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#useOfJavascript">Use of Javascript</a>
+          </li>
+          <li class="menu__item"><a href="/index.html#react">React</a></li>
+        </ul>
+        <header class="header">
+          <div class="header__logo">
+            <h2>
+              <a href="index.html"><span>J</span>oseph</a>
+            </h2>
+          </div>
+          <nav class="nav">
+            <button class="burger-menu">
+              <div class="burger-menu__bar"></div>
+              <div class="burger-menu__bar"></div>
+              <div class="burger-menu__bar"></div>
+            </button>
+          </nav>
+        </header>
+        <main class="main__project">
+          <div class="project-page__project project web-app">
             <h2 class="project__header">Web App</h2>
-        </div>
-        <div class="project__tag-container--out">
+          </div>
+          <div class="project__tag-container--out">
             <div class="project__tag">Gulp</div>
             <div class="project__tag">SASS</div>
             <div class="project__tag">Form Button Styling</div>
@@ -58,24 +64,55 @@
             <div class="project__tag">Autocomplete</div>
             <div class="project__tag">Use of Local Storage</div>
             <div class="project__tag">Chart Library</div>
-        </div>
-        <section class="brief">
+          </div>
+          <section class="brief">
             <div class="red-circle"></div>
             <h2 class="brief__title">The Brief</h2>
-            <p>On top of using build tools and SASS to create this site, you needed to add lots of interactivity. Notification bubbles, popups and include interactive use of a graph from a JS library.</p>
-            <p>To further improve the site slider were styled from scratch and even local storage is enabled.</p>
-        </section>
-        <section class="build">
+            <p>
+              On top of using build tools and SASS to create this site, you
+              needed to add lots of interactivity. Notification bubbles, popups
+              and include interactive use of a graph from a JS library.
+            </p>
+            <p>
+              To further improve the site slider were styled from scratch and
+              even local storage is enabled.
+            </p>
+          </section>
+          <section class="build">
             <div class="yellow-square"></div>
             <h2 class="build__title">The Build</h2>
-            <p>This site was packed with features. Without using a backend database I emulated the use of one-time only notifications with one-time js functions.</p>
-            <p>Recreating the graph from the Chart.js library took some time. jQuery aside, this was my first interaction with a JS library. I was pleased with how the graphs came out and once I became familiar with how the documentation wanted you to build objects, I was able to match the design.</p>
-            <p>One of the last features I took time perfecting was the custom buttons and sliders. Both the slider and the dropdown menu would look different on different browsers so it was worth spending the extra time bringing more uniformity.</p>
-        </section>
-        <a href="https://github.com/josephclander/Treehouse_web_app_dashboard" class="btn btn--code">Inspect the Code</a>
-        <a href="https://josephclander.github.io/Treehouse_web_app_dashboard/" class="btn btn--site">Visit the Site</a>
-    </main>
-    <footer class="footer">
+            <p>
+              This site was packed with features. Without using a backend
+              database I emulated the use of one-time only notifications with
+              one-time js functions.
+            </p>
+            <p>
+              Recreating the graph from the Chart.js library took some time.
+              jQuery aside, this was my first interaction with a JS library. I
+              was pleased with how the graphs came out and once I became
+              familiar with how the documentation wanted you to build objects, I
+              was able to match the design.
+            </p>
+            <p>
+              One of the last features I took time perfecting was the custom
+              buttons and sliders. Both the slider and the dropdown menu would
+              look different on different browsers so it was worth spending the
+              extra time bringing more uniformity.
+            </p>
+          </section>
+          <a
+            href="https://github.com/josephclander/Treehouse_web_app_dashboard"
+            class="btn btn--code"
+            >Inspect the Code</a
+          >
+          <a
+            href="https://josephclander.github.io/Treehouse_web_app_dashboard/"
+            class="btn btn--site"
+            >Visit the Site</a
+          >
+        </main>
+      </div>
+      <footer class="footer">
         <div class="contact">
           <h2 class="contact__title">Contact</h2>
           <div class="contact__email">
@@ -139,7 +176,7 @@
           </div>
         </div>
       </footer>
-    </main>
+    </div>
     <script src="all.js?cb=1"></script>
   </body>
 </html>

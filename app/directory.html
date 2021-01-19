@@ -18,37 +18,43 @@
     <link rel="stylesheet" href="style.css?cb=1" />
   </head>
   <body>
-    <div class="nav-modal"></div>
-    <ul class="menu">
-      <li class="menu__item"><a href="/index.html#firstProjects">First Projects</a></li>
-      <li class="menu__item"><a href="/index.html#useOfAPI">Use of API</a></li>
-      <li class="menu__item">
-        <a href="/index.html#advancedStyling">Advanced Styling</a>
-      </li>
-      <li class="menu__item">
-        <a href="/index.html#useOfJavascript">Use of Javascript</a>
-      </li>
-      <li class="menu__item"><a href="/index.html#react">React</a></li>
-    </ul>
-    <header class="header">
-      <div class="header__logo">
-        <h2>
-          <a href="index.html"><span>J</span>oseph</a>
-        </h2>
-      </div>
-      <nav class="nav">
-        <button class="burger-menu">
-          <div class="burger-menu__bar"></div>
-          <div class="burger-menu__bar"></div>
-          <div class="burger-menu__bar"></div>
-        </button>
-      </nav>
-    </header>
-    <main class="main__project">
-        <div class="project-page__project project directory">
+    <div class="content-container">
+      <div class="content">
+        <div class="nav-modal"></div>
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="/index.html#firstProjects">First Projects</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#useOfAPI">Use of API</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#advancedStyling">Advanced Styling</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#useOfJavascript">Use of Javascript</a>
+          </li>
+          <li class="menu__item"><a href="/index.html#react">React</a></li>
+        </ul>
+        <header class="header">
+          <div class="header__logo">
+            <h2>
+              <a href="index.html"><span>J</span>oseph</a>
+            </h2>
+          </div>
+          <nav class="nav">
+            <button class="burger-menu">
+              <div class="burger-menu__bar"></div>
+              <div class="burger-menu__bar"></div>
+              <div class="burger-menu__bar"></div>
+            </button>
+          </nav>
+        </header>
+        <main class="main__project">
+          <div class="project-page__project project directory">
             <h2 class="project__header">Directory</h2>
-        </div>
-        <div class="project__tag-container--out">
+          </div>
+          <div class="project__tag-container--out">
             <div class="project__tag">JS</div>
             <div class="project__tag">Fetch API</div>
             <div class="project__tag">Error Handling</div>
@@ -56,24 +62,47 @@
             <div class="project__tag">Search Function</div>
             <div class="project__tag">Gulp</div>
             <div class="project__tag">SASS</div>
-        </div>
-        <section class="brief">
+          </div>
+          <section class="brief">
             <div class="red-circle"></div>
             <h2 class="brief__title">The Brief</h2>
-            <p>This project set by Treehouse wanted a searchable directory with a lightbox on selecting an employee.</p>
-        </section>
-        <section class="build">
+            <p>
+              This project set by Treehouse wanted a searchable directory with a
+              lightbox on selecting an employee.
+            </p>
+          </section>
+          <section class="build">
             <div class="yellow-square"></div>
             <h2 class="build__title">The Build</h2>
-            <p>Using modern CSS like grid and flexbox, the main look was easily achievable.</p> 
-            <p>The search functionality was created by taking the input and using 'indexOf' on the full list of employees to toggle the display property of non-matches.</p>
-            <p>The lightbox was the most difficult task. Care had to be taken so that the images didn't appear to 'flash' when using the arrows to go through the list. Also, I adapted the list to only include employess that met the search criteria.</p>
-            <p>All of this was setup using Gulp and SASS to make the build an easier experience.</p>
-        </section>
-        <a href="https://github.com/josephclander/Treehouse_Employee_Directory" class="btn btn--code">Inspect the Code</a>
-        <!-- <a href="#" class="btn btn--site">Visit the Site</a> -->
-    </main>
-    <footer class="footer">
+            <p>
+              Using modern CSS like grid and flexbox, the main look was easily
+              achievable.
+            </p>
+            <p>
+              The search functionality was created by taking the input and using
+              'indexOf' on the full list of employees to toggle the display
+              property of non-matches.
+            </p>
+            <p>
+              The lightbox was the most difficult task. Care had to be taken so
+              that the images didn't appear to 'flash' when using the arrows to
+              go through the list. Also, I adapted the list to only include
+              employess that met the search criteria.
+            </p>
+            <p>
+              All of this was setup using Gulp and SASS to make the build an
+              easier experience.
+            </p>
+          </section>
+          <a
+            href="https://github.com/josephclander/Treehouse_Employee_Directory"
+            class="btn btn--code"
+            >Inspect the Code</a
+          >
+          <!-- <a href="#" class="btn btn--site">Visit the Site</a> -->
+        </main>
+      </div>
+      <footer class="footer">
         <div class="contact">
           <h2 class="contact__title">Contact</h2>
           <div class="contact__email">
@@ -137,7 +166,7 @@
           </div>
         </div>
       </footer>
-    </main>
+    </div>
     <script src="all.js?cb=1"></script>
   </body>
 </html>

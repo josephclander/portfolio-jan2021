@@ -18,58 +18,97 @@
     <link rel="stylesheet" href="style.css?cb=1" />
   </head>
   <body>
-    <div class="nav-modal"></div>
-    <ul class="menu">
-      <li class="menu__item"><a href="/index.html#firstProjects">First Projects</a></li>
-      <li class="menu__item"><a href="/index.html#useOfAPI">Use of API</a></li>
-      <li class="menu__item">
-        <a href="/index.html#advancedStyling">Advanced Styling</a>
-      </li>
-      <li class="menu__item">
-        <a href="/index.html#useOfJavascript">Use of Javascript</a>
-      </li>
-      <li class="menu__item"><a href="/index.html#react">React</a></li>
-    </ul>
-    <header class="header">
-      <div class="header__logo">
-        <h2>
-          <a href="index.html"><span>J</span>oseph</a>
-        </h2>
-      </div>
-      <nav class="nav">
-        <button class="burger-menu">
-          <div class="burger-menu__bar"></div>
-          <div class="burger-menu__bar"></div>
-          <div class="burger-menu__bar"></div>
-        </button>
-      </nav>
-    </header>
-    <main class="main__project">
-        <div class="project-page__project project react">
+    <div class="content-container">
+      <div class="content">
+        <div class="nav-modal"></div>
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="/index.html#firstProjects">First Projects</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#useOfAPI">Use of API</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#advancedStyling">Advanced Styling</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#useOfJavascript">Use of Javascript</a>
+          </li>
+          <li class="menu__item"><a href="/index.html#react">React</a></li>
+        </ul>
+        <header class="header">
+          <div class="header__logo">
+            <h2>
+              <a href="index.html"><span>J</span>oseph</a>
+            </h2>
+          </div>
+          <nav class="nav">
+            <button class="burger-menu">
+              <div class="burger-menu__bar"></div>
+              <div class="burger-menu__bar"></div>
+              <div class="burger-menu__bar"></div>
+            </button>
+          </nav>
+        </header>
+        <main class="main__project">
+          <div class="project-page__project project react">
             <h2 class="project__header">React</h2>
-        </div>
-        <div class="project__tag-container--out">
+          </div>
+          <div class="project__tag-container--out">
             <div class="project__tag">React</div>
             <div class="project__tag">Hero Page</div>
             <div class="project__tag">Word Count</div>
             <div class="project__tag">CV</div>
-        </div>
-        <section class="brief">
+          </div>
+          <section class="brief">
             <div class="red-circle"></div>
             <h2 class="brief__title">The Brief</h2>
-            <p>After running through a project in the official React documentation, I was looking for a way to implement the key benefits myself. I wanted to create a site to enable people to have a pre designed CV that they could check as they went along without whole page re-renders.</p>
-        </section>
-        <section class="build">
+            <p>
+              After running through a project in the official React
+              documentation, I was looking for a way to implement the key
+              benefits myself. I wanted to create a site to enable people to
+              have a pre designed CV that they could check as they went along
+              without whole page re-renders.
+            </p>
+          </section>
+          <section class="build">
             <div class="yellow-square"></div>
             <h2 class="build__title">The Build</h2>
-            <p>It was this project that kick started a side line job for me in photography and eventually videography. The main design feature I began to notice on the web was full screen hero images. I quickly discovered that good use of visual hierachy and negative space alongside a great image. Trying to get that photo with your iPhone 7 and no skill or lighting appreciation was impossible.</p>
-            <p>With regard to the build of this site, it was one of my first interactions with npm although I didn't realise it at that the time as React have all the build tools fully automated for you. This was a great start for getting a feel for how npm open source helpers work.</p>
-            <p>Going back to the project has enabled me to note React developments when implementing binding and troubles with the 'this' keyword as well as how they have helped by removing the need for full use of JS classes structure i.e. constructor.</p>
-        </section>
-        <a href="https://github.com/josephclander/cvCreator" class="btn btn--code">Inspect the Code</a>
-        <a href="https://josephclander.github.io/cvCreator/" class="btn btn--site">Visit the Site</a>
-    </main>
-    <footer class="footer">
+            <p>
+              It was this project that kick started a side line job for me in
+              photography and eventually videography. The main design feature I
+              began to notice on the web was full screen hero images. I quickly
+              discovered that good use of visual hierachy and negative space
+              alongside a great image. Trying to get that photo with your iPhone
+              7 and no skill or lighting appreciation was impossible.
+            </p>
+            <p>
+              With regard to the build of this site, it was one of my first
+              interactions with npm although I didn't realise it at that the
+              time as React have all the build tools fully automated for you.
+              This was a great start for getting a feel for how npm open source
+              helpers work.
+            </p>
+            <p>
+              Going back to the project has enabled me to note React
+              developments when implementing binding and troubles with the
+              'this' keyword as well as how they have helped by removing the
+              need for full use of JS classes structure i.e. constructor.
+            </p>
+          </section>
+          <a
+            href="https://github.com/josephclander/cvCreator"
+            class="btn btn--code"
+            >Inspect the Code</a
+          >
+          <a
+            href="https://josephclander.github.io/cvCreator/"
+            class="btn btn--site"
+            >Visit the Site</a
+          >
+        </main>
+      </div>
+      <footer class="footer">
         <div class="contact">
           <h2 class="contact__title">Contact</h2>
           <div class="contact__email">
@@ -133,7 +172,7 @@
           </div>
         </div>
       </footer>
-    </main>
+    </div>
     <script src="all.js?cb=1"></script>
   </body>
 </html>

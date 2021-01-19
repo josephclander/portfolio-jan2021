@@ -1,3 +1,9 @@
+.content-container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
 .main__project {
   display: grid;
   max-width: 1000px; // 1024px - (2 * 12px)

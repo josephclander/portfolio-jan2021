@@ -18,57 +18,82 @@
     <link rel="stylesheet" href="style.css?cb=1" />
   </head>
   <body>
-    <div class="nav-modal"></div>
-    <ul class="menu">
-      <li class="menu__item"><a href="/index.html#firstProjects">First Projects</a></li>
-      <li class="menu__item"><a href="/index.html#useOfAPI">Use of API</a></li>
-      <li class="menu__item">
-        <a href="/index.html#advancedStyling">Advanced Styling</a>
-      </li>
-      <li class="menu__item">
-        <a href="/index.html#useOfJavascript">Use of Javascript</a>
-      </li>
-      <li class="menu__item"><a href="/index.html#react">React</a></li>
-    </ul>
-    <header class="header">
-      <div class="header__logo">
-        <h2>
-          <a href="index.html"><span>J</span>oseph</a>
-        </h2>
-      </div>
-      <nav class="nav">
-        <button class="burger-menu">
-          <div class="burger-menu__bar"></div>
-          <div class="burger-menu__bar"></div>
-          <div class="burger-menu__bar"></div>
-        </button>
-      </nav>
-    </header>
-    <main class="main__project">
-        <div class="project-page__project project api-gallery">
+    <div class="content-container">
+      <div class="content">
+        <div class="nav-modal"></div>
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="/index.html#firstProjects">First Projects</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#useOfAPI">Use of API</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#advancedStyling">Advanced Styling</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#useOfJavascript">Use of Javascript</a>
+          </li>
+          <li class="menu__item"><a href="/index.html#react">React</a></li>
+        </ul>
+        <header class="header">
+          <div class="header__logo">
+            <h2>
+              <a href="index.html"><span>J</span>oseph</a>
+            </h2>
+          </div>
+          <nav class="nav">
+            <button class="burger-menu">
+              <div class="burger-menu__bar"></div>
+              <div class="burger-menu__bar"></div>
+              <div class="burger-menu__bar"></div>
+            </button>
+          </nav>
+        </header>
+        <main class="main__project">
+          <div class="project-page__project project api-gallery">
             <h2 class="project__header">API Img Gallery</h2>
-        </div>
-        <div class="project__tag-container--out">
+          </div>
+          <div class="project__tag-container--out">
             <div class="project__tag">React</div>
             <div class="project__tag">Router</div>
             <div class="project__tag">API</div>
             <div class="project__tag">JS Destructuring</div>
-        </div>
-        <section class="brief">
+          </div>
+          <section class="brief">
             <div class="red-circle"></div>
             <h2 class="brief__title">The Brief</h2>
-            <p>Create a searchable image gallery from an API using React and React Router.</p>
-        </section>
-        <section class="build">
+            <p>
+              Create a searchable image gallery from an API using React and
+              React Router.
+            </p>
+          </section>
+          <section class="build">
             <div class="yellow-square"></div>
             <h2 class="build__title">The Build</h2>
-            <p>I tackled the build by first creating the markup structure then coming back to see how this would work with a router. Connecting the API and search functionality was fairly quick. I had some experience of React and so this wasn't an issue.</p>
-            <p>Adding routing was my main learning moment in this assignment. To get full functionality, I learned more about using component lifecycles, particularly 'componentDidUpdate'. This method alongside further practice in passing params and pushing the logic up the tree got me to a fully working product.</p>
-        </section>
-        <a href="https://github.com/josephclander/Treehouse_react_image_gallery" class="btn btn--code">Inspect the Code</a>
-        <!-- <a href="#" class="btn btn--site">Visit the Site</a> -->
-    </main>
-    <footer class="footer">
+            <p>
+              I tackled the build by first creating the markup structure then
+              coming back to see how this would work with a router. Connecting
+              the API and search functionality was fairly quick. I had some
+              experience of React and so this wasn't an issue.
+            </p>
+            <p>
+              Adding routing was my main learning moment in this assignment. To
+              get full functionality, I learned more about using component
+              lifecycles, particularly 'componentDidUpdate'. This method
+              alongside further practice in passing params and pushing the logic
+              up the tree got me to a fully working product.
+            </p>
+          </section>
+          <a
+            href="https://github.com/josephclander/Treehouse_react_image_gallery"
+            class="btn btn--code"
+            >Inspect the Code</a
+          >
+          <!-- <a href="#" class="btn btn--site">Visit the Site</a> -->
+        </main>
+      </div>
+      <footer class="footer">
         <div class="contact">
           <h2 class="contact__title">Contact</h2>
           <div class="contact__email">
@@ -132,7 +157,7 @@
           </div>
         </div>
       </footer>
-    </main>
+    </div>
     <script src="all.js?cb=1"></script>
   </body>
 </html>

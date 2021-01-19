@@ -18,56 +18,85 @@
     <link rel="stylesheet" href="style.css?cb=1" />
   </head>
   <body>
-    <div class="nav-modal"></div>
-    <ul class="menu">
-      <li class="menu__item"><a href="/index.html#firstProjects">First Projects</a></li>
-      <li class="menu__item"><a href="/index.html#useOfAPI">Use of API</a></li>
-      <li class="menu__item">
-        <a href="/index.html#advancedStyling">Advanced Styling</a>
-      </li>
-      <li class="menu__item">
-        <a href="/index.html#useOfJavascript">Use of Javascript</a>
-      </li>
-      <li class="menu__item"><a href="/index.html#react">React</a></li>
-    </ul>
-    <header class="header">
-      <div class="header__logo">
-        <h2>
-          <a href="index.html"><span>J</span>oseph</a>
-        </h2>
-      </div>
-      <nav class="nav">
-        <button class="burger-menu">
-          <div class="burger-menu__bar"></div>
-          <div class="burger-menu__bar"></div>
-          <div class="burger-menu__bar"></div>
-        </button>
-      </nav>
-    </header>
-    <main class="main__project">
-        <div class="project-page__project project animal">
+    <div class="content-container">
+      <div class="content">
+        <div class="nav-modal"></div>
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="/index.html#firstProjects">First Projects</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#useOfAPI">Use of API</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#advancedStyling">Advanced Styling</a>
+          </li>
+          <li class="menu__item">
+            <a href="/index.html#useOfJavascript">Use of Javascript</a>
+          </li>
+          <li class="menu__item"><a href="/index.html#react">React</a></li>
+        </ul>
+        <header class="header">
+          <div class="header__logo">
+            <h2>
+              <a href="index.html"><span>J</span>oseph</a>
+            </h2>
+          </div>
+          <nav class="nav">
+            <button class="burger-menu">
+              <div class="burger-menu__bar"></div>
+              <div class="burger-menu__bar"></div>
+              <div class="burger-menu__bar"></div>
+            </button>
+          </nav>
+        </header>
+        <main class="main__project">
+          <div class="project-page__project project animal">
             <h2 class="project__header">Animal Project</h2>
-        </div>
-        <div class="project__tag-container--out">
+          </div>
+          <div class="project__tag-container--out">
             <div class="project__tag">npm</div>
             <div class="project__tag">SVG Optimisation</div>
             <div class="project__tag">SVG Sprite</div>
-        </div>
-        <section class="brief">
+          </div>
+          <section class="brief">
             <div class="red-circle"></div>
             <h2 class="brief__title">The Brief</h2>
-           <p>This project brief from Treehouse was focused on editing SVG images to optomise them.</p>
-        </section>
-        <section class="build">
+            <p>
+              This project brief from Treehouse was focused on editing SVG
+              images to optomise them.
+            </p>
+          </section>
+          <section class="build">
             <div class="yellow-square"></div>
             <h2 class="build__title">The Build</h2>
-            <p>At this stage I had a working knowledge of using build tools with npm but it was my first interaction with Gulp. This took some time to master as most tutorials were working with pre-Gulp 4 so I had to learn Gulp 3 then learn the breaking changes to get up to speed with the brief set.</p>
-            <p>The source code will tell a better story than the site for this project. You will be able to see how the inline SVG was edited to minimise the amount of code and which tools I used by looking at the package.json file.</p>
-        </section>
-        <a href="https://github.com/josephclander/treehouse-svg-project" class="btn btn--code">Inspect the Code</a>
-        <a href="https://josephclander.github.io/treehouse-svg-project/" class="btn btn--site">Visit the Site</a>
-    </main>
-    <footer class="footer">
+            <p>
+              At this stage I had a working knowledge of using build tools with
+              npm but it was my first interaction with Gulp. This took some time
+              to master as most tutorials were working with pre-Gulp 4 so I had
+              to learn Gulp 3 then learn the breaking changes to get up to speed
+              with the brief set.
+            </p>
+            <p>
+              The source code will tell a better story than the site for this
+              project. You will be able to see how the inline SVG was edited to
+              minimise the amount of code and which tools I used by looking at
+              the package.json file.
+            </p>
+          </section>
+          <a
+            href="https://github.com/josephclander/treehouse-svg-project"
+            class="btn btn--code"
+            >Inspect the Code</a
+          >
+          <a
+            href="https://josephclander.github.io/treehouse-svg-project/"
+            class="btn btn--site"
+            >Visit the Site</a
+          >
+        </main>
+      </div>
+      <footer class="footer">
         <div class="contact">
           <h2 class="contact__title">Contact</h2>
           <div class="contact__email">
@@ -131,7 +160,7 @@
           </div>
         </div>
       </footer>
-    </main>
+    </div>
     <script src="all.js?cb=1"></script>
   </body>
 </html>
