@@ -33,6 +33,12 @@
       text-decoration: none;
       color: #fff;
       cursor: pointer;
+      transition: 0.3s;
+
+      &:hover,
+      &:focus {
+        color: $black;
+      }
     }
   }
 }
