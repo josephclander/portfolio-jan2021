@@ -51,6 +51,8 @@
   margin-top: 80px;
   align-self: center;
   fill: $green;
+
+  transition: 3.5s;
 }
 
 .yellow-container {
@@ -64,6 +66,8 @@
   background-color: $yellow;
   border: 10px solid #fff;
   z-index: -10;
+
+  transition: 1s;
 
   @media screen and (min-width: $desktop) {
     width: 328px;
@@ -85,6 +89,8 @@
   background-color: $red;
   border: 10px solid #fff;
   z-index: -10;
+
+  transition: 1.5s;
 
   @media screen and (min-width: $desktop) {
     width: 410px;
